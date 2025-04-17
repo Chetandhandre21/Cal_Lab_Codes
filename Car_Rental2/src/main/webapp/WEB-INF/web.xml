@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>CarServlet</servlet-name>
+        <servlet-class>com.rental.controller.CarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarServlet</servlet-name>
+        <url-pattern>/cars</url-pattern>
+    </servlet-mapping>
+</web-app>
